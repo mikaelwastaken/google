@@ -14,7 +14,7 @@ Chinese Notice: 如果无法查看此文档中的图片,请下载次项目后在
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 module.exports = (req, res) => {
-  let target = "https://www.google.com/"; //your website url
+  let target = "google.com"; //your website url
   //   if (
   //     req.url.startsWith("/api") ||
   //     req.url.startsWith("/auth") ||
